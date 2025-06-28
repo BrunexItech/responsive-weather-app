@@ -1,7 +1,7 @@
 {
   "name": "responsive-weather",
   "version": "0.1.0",
-  "homepage": "https://github.com/BrunexItech/responsive-weather",
+  "homepage": "https://BrunexItech.github.io/responsive-weather-app",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
