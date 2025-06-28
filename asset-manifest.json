@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/responsive-weather-app/static/css/main.4bd2a714.css",
+    "main.js": "/responsive-weather-app/static/js/main.beea899d.js",
+    "static/media/Normal_weather.jpg": "/responsive-weather-app/static/media/Normal_weather.d4c619a2eed1cd9c8414.jpg",
+    "static/media/Hot_weather.jpg": "/responsive-weather-app/static/media/Hot_weather.fa8c2ef407ef6e10ab6c.jpg",
+    "index.html": "/responsive-weather-app/index.html",
+    "main.4bd2a714.css.map": "/responsive-weather-app/static/css/main.4bd2a714.css.map",
+    "main.beea899d.js.map": "/responsive-weather-app/static/js/main.beea899d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bd2a714.css",
+    "static/js/main.beea899d.js"
+  ]
+}
