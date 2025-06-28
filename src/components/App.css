@@ -1,0 +1,148 @@
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .app {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); 
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+  
+  
+  .section_inputs {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px 20px;
+    border-radius: 0 0 12px 12px;
+    backdrop-filter: blur(5px);
+    box-sizing: border-box;
+  }
+  
+  
+  .section_inputs input {
+    flex: 1;
+    min-width: 200px;
+    max-width: 400px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-right: auto;
+  }
+  
+  
+  .section_inputs button {
+    padding: 10px 20px;
+    margin-left: auto;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .section_inputs button:hover {
+    background-color: #555;
+  }
+  
+  
+  .error-message {
+    background-color: rgba(255, 0, 0, 0.3);
+    color: white;
+    padding: 12px 20px;
+    margin: 15px auto;
+    border: 1px solid red;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+  }
+  
+  
+  .container {
+    max-width: 600px;
+    margin: 30px auto 0 auto;
+    color: white;
+  }
+  
+  
+  .temperature_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+  }
+  
+  
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+  }
+  
+  
+  .temperature {
+    font-size: 48px;
+    font-weight: bold;
+    flex-shrink: 0;
+    color: #fff;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .section_inputs {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 10px;
+    }
+  
+    .section_inputs input,
+    .section_inputs button {
+      width: 100%;
+      margin: 0;
+    }
+  
+    .temperature_container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .temperature {
+      font-size: 36px;
+    }
+  }
+  
